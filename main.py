@@ -56,11 +56,8 @@ while run: #GAME LOOP
     if bad_robot.visible:
         pygame.draw.rect(screen, bad_robot.color, bad_robot.rect)
 
-    # if bad_robot2.visible:
-    #     pygame.draw.rect(screen, bad_robot2.color, bad_robot2.rect)
-    #
-    # if bad_robot3.visible:
-    #     pygame.draw.rect(screen, bad_robot3.color, bad_robot3.rect)
+
+
 
     pygame.display.update()
 
